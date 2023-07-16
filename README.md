@@ -31,8 +31,8 @@ Alerts: CloudWatch for EC2.
 ### How to Use
 **For Question 1:**
 <p style="text-align: justify;">As terraform statefile are configured on the s3 bucket so you first need to create the
-terraform s3 resource and remeber to remove the backend "s3" from main.tf.
-Once the s3 bucket is configured, just make main.tf as it is and start running other stuffs
+terraform s3 bucket and dynamDB resource and remeber to remove the backend "s3" from main.tf before running terraform init.
+Once the s3 bucket and dynamoDB is configured, just make main.tf as it is, come back to Question 1 directory and start running other stuffs
 by first running **terraform init -migrate-state** as this will migrate your state
 to s3 and then you can run the plan and apply commands.
 </p>
