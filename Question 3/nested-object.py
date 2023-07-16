@@ -25,7 +25,6 @@ if __name__ == "__main__":
   value = get_value(object, key)
   print(value)
 
-
   object = {"x": {"y": {"z": "a"}}}
   key = "x/y/z"
   value = get_value(object, key)
