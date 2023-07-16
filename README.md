@@ -37,7 +37,7 @@ by first running **terraform init -migrate-state** as this will migrate your sta
 to s3 and then you can run the plan and apply commands.
 </p>
 
-**For Question 3:**
+**For Question 2:**
 <p style="text-align: justify;">You have to first create an EC2 instance on AWS and connect to it. Once connected
 first you have to generate the token for authentication and authorization. Run below command to do the needful.<br>
 <b>Command:</b> export TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
@@ -45,7 +45,7 @@ first you have to generate the token for authentication and authorization. Run b
 Now once the token is generated you can get metadata by running <b>python filename.py</b>.
 </p>
 
-**For Question 2:**
+**For Question 3:**
 <p style="text-align: justify;">No extra thing required. You can simply run it on the machine in which python is installed.
 </p>
 <h2><I> Feel free to explore the code and provide any feedback or suggestions. Thank you for considering my solutions!</h2></I>
