@@ -48,4 +48,4 @@ Now once the token is generated you can get metadata by running <b>python filena
 **For Question 2:**
 <p style="text-align: justify;">No extra thing required. You can simply run it on the machine in which python is installed.
 </p>
-## Feel free to explore the code and provide any feedback or suggestions. Thank you for considering my solutions!
+<h2><I> Feel free to explore the code and provide any feedback or suggestions. Thank you for considering my solutions!</h2></I>
