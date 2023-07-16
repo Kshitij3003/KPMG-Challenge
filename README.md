@@ -12,7 +12,7 @@ Monitoring: VPC Flow Logs.<br>
 Alerts: CloudWatch for EC2.
 
 <p style="text-align: justify;">
-**NOTE :-** Future updates for this setup may include implementing a *CI/CD pipeline, integrating AWS Shield for enhanced security, and configuring AWS Config for resource tracking and compliance monitoring*.
+**NOTE :-** Future updates for this setup may include implementing a *CI/CD pipeline, integrating AWS Shield for enhanced security, configuring AWS Config for resource tracking and compliance monitoring, and configuring AWS Secrets Manager for storing secrets*.
 </p>
 
 ### Question 2: Querying Instance Metadata
